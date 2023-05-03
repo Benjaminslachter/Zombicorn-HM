@@ -1,4 +1,4 @@
-res://GameLevel1.tscn
-res://Characters/player_character.tscn
+res://Characters/enemy.tscn
 res://Levels/GameLevel1.tscn
-res://Characters/player_character.gd
+res://Characters/player_character.tscn
+res://README.md
