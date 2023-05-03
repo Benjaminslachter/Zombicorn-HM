@@ -1,0 +1,4 @@
+res://GameLevel1.tscn
+res://Characters/player_character.tscn
+res://Levels/GameLevel1.tscn
+res://Characters/player_character.gd
