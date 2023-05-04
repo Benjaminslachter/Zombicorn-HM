@@ -1,7 +1,7 @@
 2a60927148abd1d33b818b535e306557
-::res://::1683123278
+::res://::1683207319
 icon.svg::CompressedTexture2D::1100326078229158331::1682945920::1683123254::1::::<><>::
-README.md::TextFile::-1::1683120543::0::1::::<><>::
+README.md::TextFile::-1::1683207319::0::1::::<><>::
 ::res://Assets/::1683120797
 ::res://Assets/Items or GUI/::1683120791
 ::res://Assets/Items or GUI/Coin_Gems/::1683121103
@@ -2428,10 +2428,6 @@ Decorations.png::CompressedTexture2D::1864654772757832768::1683034416::168312109
 ::res://Assets/Tilemaps/TopDownFantasy-Forest/Tiles/::1683121099
 Tileset1xPadding.png::CompressedTexture2D::3574893908222011570::1683034416::1683121099::1::::<><>::
 Tileset.png::CompressedTexture2D::5938719792793761998::1683034416::1683121099::1::::<><>::
-::res://Characters/::1683123261
-enemy.gd::GDScript::-1::1683121808::0::1::::<>CharacterBody2D<>::
-enemy.tscn::PackedScene::4936779734695119417::1683123261::0::1::::<><>::res://Characters/enemy.gd<>uid://bktgsfggxw5g
-player_character.gd::GDScript::-1::1682946533::0::1::::<>CharacterBody2D<>::
-player_character.tscn::PackedScene::8993501907924449246::1683123261::0::1::::<><>::res://Characters/player_character.gd
-::res://Levels/::1683123261
-GameLevel1.tscn::PackedScene::2293312460939319992::1683123261::0::1::::<><>::uid://dssiwef7uymk6<>uid://ba3q2oq3pas65<>uid://bejmkacoiu5do<>uid://dmqfm0jkwh6y2<>uid://rq3qp8pj4md3<>uid://cah6g040w5wba<>uid://ckmpiicfugdyj<>uid://dn0ld5f7npi4l<>uid://ctsxavxs5ms3x<>uid://b8cerxx0vl2jf<>uid://c2eaba5tntud4<>uid://dguln0r1bl1rw<>uid://bq6x8lkptf5lm<>uid://cqu032ro51jhm<>uid://1tiud8kn8e37<>uid://con44y7xdxgco<>uid://dduxlf2kx2ivv<>uid://cage3cpxklt6p<>uid://dfwrwigsurwfh<>uid://b84t873pjyoyq<>uid://cq22s43tvhlbk
+::res://Characters/::1683205460
+::res://Levels/::1683207316
+GameLevel1.tscn::PackedScene::2293312460939319992::1683207316::0::1::::<><>::uid://dssiwef7uymk6<>uid://ba3q2oq3pas65<>uid://bejmkacoiu5do<>uid://dmqfm0jkwh6y2<>uid://rq3qp8pj4md3<>uid://cah6g040w5wba<>uid://ckmpiicfugdyj<>uid://dn0ld5f7npi4l<>uid://ctsxavxs5ms3x<>uid://b8cerxx0vl2jf<>uid://c2eaba5tntud4<>uid://dguln0r1bl1rw<>uid://bq6x8lkptf5lm<>uid://cqu032ro51jhm<>uid://1tiud8kn8e37<>uid://con44y7xdxgco<>uid://dduxlf2kx2ivv<>uid://cage3cpxklt6p<>uid://dfwrwigsurwfh<>uid://b84t873pjyoyq<>uid://cq22s43tvhlbk
