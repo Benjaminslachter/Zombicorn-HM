@@ -1,2 +1,3 @@
-res://Levels/GameLevel1.tscn
-res://README.md
+res://Characters/player.tscn
+res://Levels/game_level.tscn
+res://Levels/Player.gd

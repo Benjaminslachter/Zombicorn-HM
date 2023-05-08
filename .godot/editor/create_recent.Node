@@ -1,9 +1,10 @@
+CollisionShape2D
+Sprite2D
 CharacterBody2D
+PathFollow2D
 RemoteTransform2D
 AnimationPlayer
-CollisionShape2D
 AnimationTree
-Sprite2D
 AnimatedSprite2D
 Tree
 MultiplayerSpawner
