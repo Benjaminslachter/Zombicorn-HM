@@ -1,24 +1,39 @@
 extends CharacterBody2D
 
+@export var move_speed : float = 100
+@export var starting_direction : Vector2 = Vector2(0,1)
+@onready var animation_tree = $AnimationTree
+@onready var state_machine = animation_tree.get("parameters/playback")
 
-@export var speed = 100
+func _ready():
+	update_animation_parameters(starting_direction)
 
-func _process(delta):
-	var movement_direction := Vector2.ZERO
+func _physics_process(_delta):
+	#Get movement imput
+	var input_direction = Vector2(
+		Input.get_action_strength("Right") - Input.get_action_strength("Left"), 
+		Input.get_action_strength("Down") - Input.get_action_strength("Up")
+	)
 	
-	if Input.is_action_pressed("Up"):
-		movement_direction.y = -1
-	if Input.is_action_pressed("Down"):
-		movement_direction.y = 1
-	if Input.is_action_pressed("Left"):
-		movement_direction.x = -1
-	if Input.is_action_pressed("Right"):
-		movement_direction.y = 1
+	update_animation_parameters(input_direction)
 	
+	#Get velocity
+	velocity = input_direction * move_speed
 	
-	movement_direction = movement_direction.normalized()
+	#Move and slide func
 	move_and_slide()
 	
-	
-	
+	pick_new_state()
 
+func update_animation_parameters(move_input : Vector2):
+	#Don't change animation parameters if there is no move input.
+	if(move_input != Vector2.ZERO):
+		animation_tree.set("parameters/Walk/blend_position", move_input)
+		animation_tree.set("parameters/Idle/blend_position", move_input)
+
+func pick_new_state():
+	#Choose new state based on player input.
+	if(velocity != Vector2.ZERO):
+		state_machine.travel("Walk")
+	else:
+		state_machine.travel("Idle")

@@ -1,5 +1,5 @@
 2a60927148abd1d33b818b535e306557
-::res://::1683553239
+::res://::1683637604
 icon.svg::CompressedTexture2D::1100326078229158331::1682945920::1683123254::1::::<><>::
 ::res://Assets/::1683120797
 ::res://Assets/Items or GUI/::1683120791
@@ -2427,8 +2427,9 @@ Decorations.png::CompressedTexture2D::1864654772757832768::1683034416::168312109
 ::res://Assets/Tilemaps/TopDownFantasy-Forest/Tiles/::1683121099
 Tileset1xPadding.png::CompressedTexture2D::3574893908222011570::1683034416::1683121099::1::::<><>::
 Tileset.png::CompressedTexture2D::5938719792793761998::1683034416::1683121099::1::::<><>::
-::res://Characters/::1683551119
+::res://Characters/::1683637812
 player.tscn::PackedScene::68978152327496608::1683551119::0::1::::<><>::uid://c0nn1i4refh2v
-::res://Levels/::1683553800
-game_level.tscn::PackedScene::8691794980991175472::1683553800::0::1::::<><>::uid://bncawbeb3l2is<>res://Levels/Player.gd
-Player.gd::GDScript::-1::1683553800::0::1::::<>CharacterBody2D<>::
+player_cat.tscn::PackedScene::-1::1682690362::0::1::::<><>::
+::res://Levels/::1683640566
+game_level.tscn::PackedScene::8691794980991175472::1683640566::0::1::::<><>::uid://bncawbeb3l2is<>res://Levels/Player.gd
+Player.gd::GDScript::-1::1683640559::0::1::::<>CharacterBody2D<>::
