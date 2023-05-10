@@ -1,2 +1,4 @@
 res://Levels/game_level.tscn
 res://Levels/Player.gd
+res://Characters/enemy.tscn
+res://Characters/enemy.gd
